@@ -1,11 +1,10 @@
 import { Text, View } from "react-native";
-import Landing from "./pages/Landing.jsx";
+import Landing from "./pages/landing.jsx";
 import "../global.css"
 
 export default function Index() {
   return (
-    <View>
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+    <View className="flex flex-col justify-start bg-neutral-950 w-screen min-h-screen h-max text-neutral-50">
       <Landing />
     </View>
   );
